@@ -24,7 +24,7 @@ public class CompoundInterestCalculator {
         System.out.print("Enter the years: ");
         years = in.nextInt() ;
 
-        amount = principal * Math.pow((1+(rate/years)),(years*interestCompounded));
+        amount = principal * Math.pow(1 + (rate / interestCompounded), years * interestCompounded);
 
         System.out.printf("\nAmount: %.2f",amount);
        in.close();
