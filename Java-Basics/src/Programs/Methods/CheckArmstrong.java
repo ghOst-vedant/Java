@@ -36,5 +36,5 @@ public class CheckArmstrong {
         if (sum == og){
             System.out.println(og);
         }
-}
+    }
 }
