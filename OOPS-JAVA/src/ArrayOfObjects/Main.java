@@ -12,7 +12,7 @@ public class Main {
 
          */
 
-        // These are anonymous objects 
+        // These are anonymous objects
         Car[] cars = {
                 new Car("Mustang","red"),
                 new Car("Mercedes", "white"),
