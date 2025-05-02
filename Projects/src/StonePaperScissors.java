@@ -10,7 +10,7 @@ public class StonePaperScissors {
 
         // Declare Variable
         String[] choices = {"stone","paper","scissor"};
-        String playerChoice, computerChoice, playAgain = "yes";
+        String playerChoice, computerChoice, playAgain = "y";
 
         do {
         // Get the choice from the user
